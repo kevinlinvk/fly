@@ -1,0 +1,156 @@
+CMake Error at googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake:170 (message):
+  Each download failed!
+
+    error: downloading 'https://github.com/google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip' failed
+          status_code: 56
+          status_string: "Failure when receiving data from the peer"
+          log:
+          --- LOG BEGIN ---
+          Host github.com:443 was resolved.
+
+  IPv6: (none)
+
+  IPv4: 20.205.243.166
+
+    Trying 20.205.243.166:443...
+
+  Connected to github.com (20.205.243.166) port 443
+
+  ALPN: curl offers h2,http/1.1
+
+  [5 bytes data]
+
+  TLSv1.3 (OUT), TLS handshake, Client hello (1):
+
+  [512 bytes data]
+
+  [5 bytes data]
+
+  TLSv1.3 (IN), TLS handshake, Server hello (2):
+
+  [122 bytes data]
+
+  [5 bytes data]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+
+  [19 bytes data]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  TLSv1.3 (IN), TLS handshake, Certificate (11):
+
+  [3135 bytes data]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  TLSv1.3 (IN), TLS handshake, CERT verify (15):
+
+  [79 bytes data]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  TLSv1.3 (IN), TLS handshake, Finished (20):
+
+  [36 bytes data]
+
+  [5 bytes data]
+
+  TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+
+  [1 bytes data]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  TLSv1.3 (OUT), TLS handshake, Finished (20):
+
+  [36 bytes data]
+
+  SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / X25519 /
+  id-ecPublicKey
+
+  ALPN: server accepted h2
+
+  Server certificate:
+
+   subject: CN=github.com
+   start date: Feb  5 00:00:00 2025 GMT
+   expire date: Feb  5 23:59:59 2026 GMT
+   subjectAltName: host "github.com" matched cert's "github.com"
+   issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo ECC Domain Validation Secure Server CA
+   SSL certificate verify result: unable to get local issuer certificate (20), continuing anyway.
+    Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA256
+    Certificate level 1: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using ecdsa-with-SHA384
+    Certificate level 2: Public key type EC/secp384r1 (384/192 Bits/secBits), signed using sha384WithRSAEncryption
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  using HTTP/2
+
+  [HTTP/2] [1] OPENED stream for
+  https://github.com/google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip
+
+
+  [HTTP/2] [1] [:method: GET]
+
+  [HTTP/2] [1] [:scheme: https]
+
+  [HTTP/2] [1] [:authority: github.com]
+
+  [HTTP/2] [1] [:path:
+  /google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip]
+
+  [HTTP/2] [1] [user-agent: curl/8.5.0]
+
+  [HTTP/2] [1] [accept: */*]
+
+  [5 bytes data]
+
+  [1 bytes data]
+
+  GET /google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip
+  HTTP/2
+
+  Host: github.com
+
+  User-Agent: curl/8.5.0
+
+  Accept: */*
+
+  
+
+  Recv failure: Connection reset by peer
+
+  OpenSSL SSL_read: Connection reset by peer, errno 104
+
+  Failed receiving HTTP2 data: 56(Failure when receiving data from the peer)
+
+  Connection #0 to host github.com left intact
+
+
+
+          --- LOG END ---
+          
+    
+
+
+CMake Error at googletest-download/googletest-prefix/src/googletest-stamp/googletest-download--impl.cmake:9 (message):
+  Command failed (1):
+
+   '/usr/bin/cmake' '-P' '/home/fly/fly/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/download-googletest.cmake'
+
+

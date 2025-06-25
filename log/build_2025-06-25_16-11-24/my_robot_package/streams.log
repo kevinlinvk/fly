@@ -1,0 +1,26 @@
+[0.271s] Invoking command in '/home/fly/fly/build/my_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fly/fly/build/my_robot_package -- -j8 -l8
+[0.444s] [ 50%] Built target simple_publisher
+[0.453s] [100%] Built target simple_subscriber
+[0.480s] Invoked command in '/home/fly/fly/build/my_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/fly/fly/build/my_robot_package -- -j8 -l8
+[0.506s] Invoking command in '/home/fly/fly/build/my_robot_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fly/fly/build/my_robot_package
+[0.517s] -- Install configuration: ""
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/lib/my_robot_package/simple_publisher
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/lib/my_robot_package/simple_subscriber
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/launch
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/launch/demo.launch.py
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/package_run_dependencies/my_robot_package
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/parent_prefix_path/my_robot_package
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/ament_prefix_path.sh
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/ament_prefix_path.dsv
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/path.sh
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/path.dsv
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.bash
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.sh
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.zsh
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.dsv
+[0.520s] -- Installing: /home/fly/fly/install/my_robot_package/share/my_robot_package/package.dsv
+[0.520s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/packages/my_robot_package
+[0.521s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/cmake/my_robot_packageConfig.cmake
+[0.521s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/cmake/my_robot_packageConfig-version.cmake
+[0.521s] -- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/package.xml
+[0.525s] Invoked command in '/home/fly/fly/build/my_robot_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/fly/fly/build/my_robot_package

@@ -1,0 +1,6 @@
+source;share/delivery_drone/hook/pythonpath.ps1
+source;share/delivery_drone/hook/pythonpath.dsv
+source;share/delivery_drone/hook/pythonpath.sh
+source;share/delivery_drone/hook/ament_prefix_path.ps1
+source;share/delivery_drone/hook/ament_prefix_path.dsv
+source;share/delivery_drone/hook/ament_prefix_path.sh

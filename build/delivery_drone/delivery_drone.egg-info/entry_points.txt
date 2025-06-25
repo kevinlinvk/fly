@@ -1,0 +1,2 @@
+[console_scripts]
+delivery_drone_node = delivery_drone.delivery_drone_node:main

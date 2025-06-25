@@ -1,0 +1,2 @@
+Invoking command in '/home/fly/fly/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fly/fly/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/fly/fly/install/px4
+Invoked command in '/home/fly/fly/build/px4' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fly/fly/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/fly/fly/install/px4

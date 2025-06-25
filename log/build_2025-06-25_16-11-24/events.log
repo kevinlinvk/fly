@@ -1,0 +1,401 @@
+[0.000000] (-) TimerEvent: {}
+[0.001029] (delivery_drone) JobQueued: {'identifier': 'delivery_drone', 'dependencies': OrderedDict()}
+[0.001113] (my_robot_package) JobQueued: {'identifier': 'my_robot_package', 'dependencies': OrderedDict()}
+[0.001144] (px4) JobQueued: {'identifier': 'px4', 'dependencies': OrderedDict()}
+[0.001155] (delivery_drone) JobStarted: {'identifier': 'delivery_drone'}
+[0.012479] (my_robot_package) JobStarted: {'identifier': 'my_robot_package'}
+[0.016998] (px4) JobStarted: {'identifier': 'px4'}
+[0.100445] (-) TimerEvent: {}
+[0.201314] (-) TimerEvent: {}
+[0.279448] (my_robot_package) JobProgress: {'identifier': 'my_robot_package', 'progress': 'cmake'}
+[0.280297] (my_robot_package) JobProgress: {'identifier': 'my_robot_package', 'progress': 'build'}
+[0.281271] (my_robot_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fly/fly/build/my_robot_package', '--', '-j8', '-l8'], 'cwd': '/home/fly/fly/build/my_robot_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'fly', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorEzEr4Y/usr/lib/:/tmp/.mount_CursorEzEr4Y/usr/lib32/:/tmp/.mount_CursorEzEr4Y/usr/lib64/:/tmp/.mount_CursorEzEr4Y/lib/:/tmp/.mount_CursorEzEr4Y/lib/i386-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/x86_64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/aarch64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib32/:/tmp/.mount_CursorEzEr4Y/lib64/:', 'HOME': '/home/fly', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorEzEr4Y', 'OLDPWD': '/home/fly/fly/frontend', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.1.5', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorEzEr4Y/usr/share/perl5/:/tmp/.mount_CursorEzEr4Y/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/cursor', 'MANAGERPID': '1760', 'npm_config_yes': 'true', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1994', 'BUNDLED_DEBUGPY_PATH': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5945', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fly/fly/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fly', 'OWD': '/home/fly/下载', 'JOURNAL_STREAM': '9:24871', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fly', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/fly/.local/bin:/home/fly/.local/bin:/opt/ros/jazzy/bin:/tmp/.mount_CursorEzEr4Y/usr/bin/:/tmp/.mount_CursorEzEr4Y/usr/sbin/:/tmp/.mount_CursorEzEr4Y/usr/games/:/tmp/.mount_CursorEzEr4Y/bin/:/tmp/.mount_CursorEzEr4Y/sbin/:/home/fly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/fly-VMware-Virtual-Platform:@/tmp/.ICE-unix/1994,unix/fly-VMware-Virtual-Platform:/tmp/.ICE-unix/1994', 'INVOCATION_ID': 'aa9892949ff448febeffad6d35eb51a7', 'APPIMAGE': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f74bf0f564c9a7f.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.86RQ82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dc9a81f9c3.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': '32a5e3ef79e540538b12587422668183', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorEzEr4Y/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/fly/fly/install/delivery_drone:/home/fly/fly/install/my_robot_package:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fly/fly/build/my_robot_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'XDG_DATA_DIRS': '/tmp/.mount_CursorEzEr4Y/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorEzEr4Y/usr/lib/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/fly/fly/install/my_robot_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy'}), 'shell': False}
+[0.285008] (px4) JobProgress: {'identifier': 'px4', 'progress': 'cmake'}
+[0.285947] (px4) Command: {'cmd': ['/usr/bin/cmake', '/home/fly/fly/PX4-Autopilot', '-DCMAKE_INSTALL_PREFIX=/home/fly/fly/install/px4'], 'cwd': '/home/fly/fly/build/px4', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'fly', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorEzEr4Y/usr/lib/:/tmp/.mount_CursorEzEr4Y/usr/lib32/:/tmp/.mount_CursorEzEr4Y/usr/lib64/:/tmp/.mount_CursorEzEr4Y/lib/:/tmp/.mount_CursorEzEr4Y/lib/i386-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/x86_64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/aarch64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib32/:/tmp/.mount_CursorEzEr4Y/lib64/:', 'HOME': '/home/fly', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorEzEr4Y', 'OLDPWD': '/home/fly/fly/frontend', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.1.5', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorEzEr4Y/usr/share/perl5/:/tmp/.mount_CursorEzEr4Y/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/cursor', 'MANAGERPID': '1760', 'npm_config_yes': 'true', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1994', 'BUNDLED_DEBUGPY_PATH': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5945', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fly/fly/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fly', 'OWD': '/home/fly/下载', 'JOURNAL_STREAM': '9:24871', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fly', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/fly/.local/bin:/home/fly/.local/bin:/opt/ros/jazzy/bin:/tmp/.mount_CursorEzEr4Y/usr/bin/:/tmp/.mount_CursorEzEr4Y/usr/sbin/:/tmp/.mount_CursorEzEr4Y/usr/games/:/tmp/.mount_CursorEzEr4Y/bin/:/tmp/.mount_CursorEzEr4Y/sbin/:/home/fly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/fly-VMware-Virtual-Platform:@/tmp/.ICE-unix/1994,unix/fly-VMware-Virtual-Platform:/tmp/.ICE-unix/1994', 'INVOCATION_ID': 'aa9892949ff448febeffad6d35eb51a7', 'APPIMAGE': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f74bf0f564c9a7f.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.86RQ82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dc9a81f9c3.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': '32a5e3ef79e540538b12587422668183', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorEzEr4Y/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/fly/fly/install/delivery_drone:/home/fly/fly/install/my_robot_package:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fly/fly/build/px4', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'XDG_DATA_DIRS': '/tmp/.mount_CursorEzEr4Y/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorEzEr4Y/usr/lib/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/fly/fly/install/my_robot_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy'}), 'shell': False}
+[0.303387] (-) TimerEvent: {}
+[0.403778] (-) TimerEvent: {}
+[0.456047] (my_robot_package) StdoutLine: {'line': b'[ 50%] Built target simple_publisher\n'}
+[0.465735] (my_robot_package) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[0.477977] (px4) StdoutLine: {'line': b'-- PX4_GIT_TAG: v1.16.0-rc1-291-g2e6fd9dd72\n'}
+[0.478781] (px4) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):\n'}
+[0.479088] (px4) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.479177] (px4) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.479253] (px4) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.479326] (px4) StderrLine: {'line': b'\n'}
+[0.479399] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.479471] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[0.492122] (my_robot_package) CommandEnded: {'returncode': 0}
+[0.492851] (my_robot_package) JobProgress: {'identifier': 'my_robot_package', 'progress': 'install'}
+[0.506117] (-) TimerEvent: {}
+[0.517051] (px4) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3") \n'}
+[0.517897] (my_robot_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fly/fly/build/my_robot_package'], 'cwd': '/home/fly/fly/build/my_robot_package', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'fly', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorEzEr4Y/usr/lib/:/tmp/.mount_CursorEzEr4Y/usr/lib32/:/tmp/.mount_CursorEzEr4Y/usr/lib64/:/tmp/.mount_CursorEzEr4Y/lib/:/tmp/.mount_CursorEzEr4Y/lib/i386-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/x86_64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/aarch64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib32/:/tmp/.mount_CursorEzEr4Y/lib64/:', 'HOME': '/home/fly', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorEzEr4Y', 'OLDPWD': '/home/fly/fly/frontend', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.1.5', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorEzEr4Y/usr/share/perl5/:/tmp/.mount_CursorEzEr4Y/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/cursor', 'MANAGERPID': '1760', 'npm_config_yes': 'true', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1994', 'BUNDLED_DEBUGPY_PATH': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5945', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fly/fly/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fly', 'OWD': '/home/fly/下载', 'JOURNAL_STREAM': '9:24871', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fly', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/fly/.local/bin:/home/fly/.local/bin:/opt/ros/jazzy/bin:/tmp/.mount_CursorEzEr4Y/usr/bin/:/tmp/.mount_CursorEzEr4Y/usr/sbin/:/tmp/.mount_CursorEzEr4Y/usr/games/:/tmp/.mount_CursorEzEr4Y/bin/:/tmp/.mount_CursorEzEr4Y/sbin/:/home/fly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/fly-VMware-Virtual-Platform:@/tmp/.ICE-unix/1994,unix/fly-VMware-Virtual-Platform:/tmp/.ICE-unix/1994', 'INVOCATION_ID': 'aa9892949ff448febeffad6d35eb51a7', 'APPIMAGE': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f74bf0f564c9a7f.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.86RQ82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dc9a81f9c3.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': '32a5e3ef79e540538b12587422668183', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorEzEr4Y/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/fly/fly/install/delivery_drone:/home/fly/fly/install/my_robot_package:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fly/fly/build/my_robot_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'XDG_DATA_DIRS': '/tmp/.mount_CursorEzEr4Y/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorEzEr4Y/usr/lib/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/fly/fly/install/my_robot_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy'}), 'shell': False}
+[0.529136] (my_robot_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.532225] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/lib/my_robot_package/simple_publisher\n'}
+[0.532408] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/lib/my_robot_package/simple_subscriber\n'}
+[0.532588] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/launch\n'}
+[0.532644] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/launch/demo.launch.py\n'}
+[0.532684] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/package_run_dependencies/my_robot_package\n'}
+[0.532724] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/parent_prefix_path/my_robot_package\n'}
+[0.532763] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/ament_prefix_path.sh\n'}
+[0.532802] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/ament_prefix_path.dsv\n'}
+[0.532838] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/path.sh\n'}
+[0.532874] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/environment/path.dsv\n'}
+[0.532909] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.bash\n'}
+[0.532947] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.sh\n'}
+[0.532983] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.zsh\n'}
+[0.533019] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/local_setup.dsv\n'}
+[0.533063] (my_robot_package) StdoutLine: {'line': b'-- Installing: /home/fly/fly/install/my_robot_package/share/my_robot_package/package.dsv\n'}
+[0.533188] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/ament_index/resource_index/packages/my_robot_package\n'}
+[0.533308] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/cmake/my_robot_packageConfig.cmake\n'}
+[0.533426] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/cmake/my_robot_packageConfig-version.cmake\n'}
+[0.533542] (my_robot_package) StdoutLine: {'line': b'-- Up-to-date: /home/fly/fly/install/my_robot_package/share/my_robot_package/package.xml\n'}
+[0.537447] (my_robot_package) CommandEnded: {'returncode': 0}
+[0.540032] (px4) StdoutLine: {'line': b'-- PX4 config file: /home/fly/fly/PX4-Autopilot/boards/px4/ros2/default.px4board\n'}
+[0.553839] (my_robot_package) JobEnded: {'identifier': 'my_robot_package', 'rc': 0}
+[0.609171] (-) TimerEvent: {}
+[0.710109] (-) TimerEvent: {}
+[0.779483] (px4) StdoutLine: {'line': b'-- PLATFORM ros2\n'}
+[0.780036] (px4) StdoutLine: {'line': b'-- ROMFSROOT px4fmu_common\n'}
+[0.780401] (px4) StdoutLine: {'line': b'-- ROOT_PATH /fs/microsd\n'}
+[0.780528] (px4) StdoutLine: {'line': b'-- PARAM_FILE /fs/mtd_params\n'}
+[0.795989] (px4) StdoutLine: {'line': b'-- PX4 config: px4_ros2_default\n'}
+[0.796206] (px4) StdoutLine: {'line': b'-- PX4 platform: ros2\n'}
+[0.810270] (-) TimerEvent: {}
+[0.916497] (-) TimerEvent: {}
+[0.918953] (px4) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.973841] (delivery_drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/delivery_drone', 'build', '--build-base', '/home/fly/fly/build/delivery_drone/build', 'install', '--record', '/home/fly/fly/build/delivery_drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fly/fly/src/delivery_drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'fly', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/tmp/.mount_CursorEzEr4Y/usr/lib/:/tmp/.mount_CursorEzEr4Y/usr/lib32/:/tmp/.mount_CursorEzEr4Y/usr/lib64/:/tmp/.mount_CursorEzEr4Y/lib/:/tmp/.mount_CursorEzEr4Y/lib/i386-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/x86_64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib/aarch64-linux-gnu/:/tmp/.mount_CursorEzEr4Y/lib32/:/tmp/.mount_CursorEzEr4Y/lib64/:', 'HOME': '/home/fly', 'CHROME_DESKTOP': 'cursor.desktop', 'APPDIR': '/tmp/.mount_CursorEzEr4Y', 'OLDPWD': '/home/fly/fly/frontend', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.1.5', 'DESKTOP_SESSION': 'ubuntu', 'PERLLIB': '/tmp/.mount_CursorEzEr4Y/usr/share/perl5/:/tmp/.mount_CursorEzEr4Y/usr/lib/perl5/:', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'head -n 10000 | cat', 'VSCODE_GIT_ASKPASS_MAIN': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/tmp/.mount_CursorEzEr4Y/usr/share/cursor/cursor', 'MANAGERPID': '1760', 'npm_config_yes': 'true', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1994', 'BUNDLED_DEBUGPY_PATH': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5945', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fly/fly/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'fly', 'OWD': '/home/fly/下载', 'JOURNAL_STREAM': '9:24871', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fly', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/fly/.local/bin:/home/fly/.local/bin:/opt/ros/jazzy/bin:/tmp/.mount_CursorEzEr4Y/usr/bin/:/tmp/.mount_CursorEzEr4Y/usr/sbin/:/tmp/.mount_CursorEzEr4Y/usr/games/:/tmp/.mount_CursorEzEr4Y/bin/:/tmp/.mount_CursorEzEr4Y/sbin/:/home/fly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/fly-VMware-Virtual-Platform:@/tmp/.ICE-unix/1994,unix/fly-VMware-Virtual-Platform:/tmp/.ICE-unix/1994', 'INVOCATION_ID': 'aa9892949ff448febeffad6d35eb51a7', 'APPIMAGE': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/fly/.cursor/extensions/ms-python.debugpy-2025.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5f74bf0f564c9a7f.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.86RQ82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dc9a81f9c3.sock', 'TERM_PROGRAM': 'vscode', 'CURSOR_TRACE_ID': '32a5e3ef79e540538b12587422668183', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/tmp/.mount_CursorEzEr4Y/usr/share/glib-2.0/schemas/:', 'AMENT_PREFIX_PATH': '/home/fly/fly/install/delivery_drone:/home/fly/fly/install/my_robot_package:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'ARGV0': '/home/fly/下载/Cursor-1.1.5-x86_64.AppImage', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fly/fly/build/delivery_drone', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=57c92d3b183303dc32518fdd685b875e', 'XDG_DATA_DIRS': '/tmp/.mount_CursorEzEr4Y/usr/share/:/usr/local/share:/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/fly/fly/build/delivery_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'QT_PLUGIN_PATH': '/tmp/.mount_CursorEzEr4Y/usr/lib/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt4/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/i386-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/x86_64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib/aarch64-linux-gnu/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib32/qt5/plugins/:/tmp/.mount_CursorEzEr4Y/usr/lib64/qt5/plugins/:', 'COLCON': '1', 'PIP_NO_INPUT': 'true', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/fly/fly/install/my_robot_package:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.975213] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.016771] (-) TimerEvent: {}
+[1.117274] (-) TimerEvent: {}
+[1.217812] (-) TimerEvent: {}
+[1.227053] (px4) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.234718] (px4) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.234986] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.235073] (px4) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.240459] (px4) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.282391] (delivery_drone) StdoutLine: {'line': b'running egg_info\n'}
+[1.307772] (delivery_drone) StdoutLine: {'line': b'writing ../../build/delivery_drone/delivery_drone.egg-info/PKG-INFO\n'}
+[1.308198] (delivery_drone) StdoutLine: {'line': b'writing dependency_links to ../../build/delivery_drone/delivery_drone.egg-info/dependency_links.txt\n'}
+[1.308823] (delivery_drone) StdoutLine: {'line': b'writing entry points to ../../build/delivery_drone/delivery_drone.egg-info/entry_points.txt\n'}
+[1.308950] (delivery_drone) StdoutLine: {'line': b'writing requirements to ../../build/delivery_drone/delivery_drone.egg-info/requires.txt\n'}
+[1.311856] (delivery_drone) StdoutLine: {'line': b'writing top-level names to ../../build/delivery_drone/delivery_drone.egg-info/top_level.txt\n'}
+[1.319169] (-) TimerEvent: {}
+[1.350397] (delivery_drone) StdoutLine: {'line': b"reading manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'\n"}
+[1.351891] (delivery_drone) StdoutLine: {'line': b"writing manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'\n"}
+[1.352115] (delivery_drone) StdoutLine: {'line': b'running build\n'}
+[1.352199] (delivery_drone) StdoutLine: {'line': b'running build_py\n'}
+[1.352485] (delivery_drone) StdoutLine: {'line': b'copying delivery_drone/delivery_drone_node.py -> /home/fly/fly/build/delivery_drone/build/lib/delivery_drone\n'}
+[1.353294] (delivery_drone) StdoutLine: {'line': b'running install\n'}
+[1.356471] (delivery_drone) StdoutLine: {'line': b'running install_lib\n'}
+[1.378021] (delivery_drone) StdoutLine: {'line': b'copying /home/fly/fly/build/delivery_drone/build/lib/delivery_drone/delivery_drone_node.py -> /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone\n'}
+[1.379201] (delivery_drone) StdoutLine: {'line': b'byte-compiling /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone/delivery_drone_node.py to delivery_drone_node.cpython-312.pyc\n'}
+[1.382365] (delivery_drone) StdoutLine: {'line': b'running install_data\n'}
+[1.382873] (delivery_drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.418353] (delivery_drone) StdoutLine: {'line': b"removing '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.418783] (delivery_drone) StdoutLine: {'line': b'Copying ../../build/delivery_drone/delivery_drone.egg-info to /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info\n'}
+[1.423349] (delivery_drone) StdoutLine: {'line': b'running install_scripts\n'}
+[1.423636] (-) TimerEvent: {}
+[1.494771] (px4) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.529548] (-) TimerEvent: {}
+[1.588745] (delivery_drone) StdoutLine: {'line': b'Installing delivery_drone_node script to /home/fly/fly/install/delivery_drone/lib/delivery_drone\n'}
+[1.589437] (delivery_drone) StdoutLine: {'line': b"writing list of installed files to '/home/fly/fly/build/delivery_drone/install.log'\n"}
+[1.630162] (-) TimerEvent: {}
+[1.648497] (delivery_drone) CommandEnded: {'returncode': 0}
+[1.659094] (delivery_drone) JobEnded: {'identifier': 'delivery_drone', 'rc': 0}
+[1.673224] (px4) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.723418] (px4) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.730335] (-) TimerEvent: {}
+[1.739410] (px4) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.754481] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.777039] (px4) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.831171] (-) TimerEvent: {}
+[1.850628] (px4) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.850898] (px4) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.931601] (-) TimerEvent: {}
+[2.034188] (-) TimerEvent: {}
+[2.070334] (px4) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.111020] (px4) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.134666] (-) TimerEvent: {}
+[2.160302] (px4) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.234430] (px4) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.234744] (-) TimerEvent: {}
+[2.251217] (px4) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.264699] (px4) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.334969] (-) TimerEvent: {}
+[2.370387] (px4) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.405856] (px4) StdoutLine: {'line': b'-- The ASM compiler identification is GNU\n'}
+[2.412409] (px4) StdoutLine: {'line': b'-- Found assembler: /usr/bin/cc\n'}
+[2.432142] (px4) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.435218] (-) TimerEvent: {}
+[2.536790] (-) TimerEvent: {}
+[2.637649] (-) TimerEvent: {}
+[2.648044] (px4) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.656787] (px4) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.657013] (px4) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.657056] (px4) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.694966] (px4) StdoutLine: {'line': b'-- cmake build type: RelWithDebInfo\n'}
+[2.697400] (px4) StdoutLine: {'line': b'-- ccache enabled (export CCACHE_DISABLE=1 to disable)\n'}
+[2.737802] (-) TimerEvent: {}
+[2.839593] (-) TimerEvent: {}
+[2.905364] (px4) StderrLine: {'line': b'CMake Warning (dev) at /usr/share/cmake-3.28/Modules/ExternalProject.cmake:3195 (message):\n'}
+[2.905988] (px4) StderrLine: {'line': b'  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is\n'}
+[2.906082] (px4) StderrLine: {'line': b"  not set.  The policy's OLD behavior will be used.  When using a URL\n"}
+[2.906123] (px4) StderrLine: {'line': b'  download, the timestamps of extracted files should preferably be that of\n'}
+[2.906159] (px4) StderrLine: {'line': b'  the time of extraction, otherwise code that depends on the extracted\n'}
+[2.906195] (px4) StderrLine: {'line': b'  contents might not be rebuilt if the URL changes.  The OLD behavior\n'}
+[2.906256] (px4) StderrLine: {'line': b'  preserves the timestamps from the archive instead, but this is usually not\n'}
+[2.906291] (px4) StderrLine: {'line': b'  what you want.  Update your project to the NEW behavior or specify the\n'}
+[2.906325] (px4) StderrLine: {'line': b'  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this\n'}
+[2.906368] (px4) StderrLine: {'line': b'  robustness issue.\n'}
+[2.906403] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.906438] (px4) StderrLine: {'line': b'  /usr/share/cmake-3.28/Modules/ExternalProject.cmake:4418 (_ep_add_download_command)\n'}
+[2.906473] (px4) StderrLine: {'line': b'  CMakeLists.txt:6 (ExternalProject_Add)\n'}
+[2.906508] (px4) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.906542] (px4) StderrLine: {'line': b'\n'}
+[2.917770] (px4) StdoutLine: {'line': b'-- Configuring done (0.1s)\n'}
+[2.920200] (px4) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.920803] (px4) StdoutLine: {'line': b'-- Build files have been written to: /home/fly/fly/build/px4/googletest-download\n'}
+[2.942414] (-) TimerEvent: {}
+[3.043436] (-) TimerEvent: {}
+[3.070769] (px4) StdoutLine: {'line': b"[ 11%] Creating directories for 'googletest'\n"}
+[3.115033] (px4) StdoutLine: {'line': b"[ 22%] Performing download step (download, verify and extract) for 'googletest'\n"}
+[3.143674] (-) TimerEvent: {}
+[3.244610] (-) TimerEvent: {}
+[3.349786] (-) TimerEvent: {}
+[3.450165] (-) TimerEvent: {}
+[3.551790] (-) TimerEvent: {}
+[3.652413] (-) TimerEvent: {}
+[3.753171] (-) TimerEvent: {}
+[3.855897] (-) TimerEvent: {}
+[3.956614] (-) TimerEvent: {}
+[4.057391] (-) TimerEvent: {}
+[4.159602] (-) TimerEvent: {}
+[4.260501] (-) TimerEvent: {}
+[4.365048] (-) TimerEvent: {}
+[4.465858] (-) TimerEvent: {}
+[4.566787] (-) TimerEvent: {}
+[4.674743] (-) TimerEvent: {}
+[4.775616] (-) TimerEvent: {}
+[4.881009] (-) TimerEvent: {}
+[4.981838] (-) TimerEvent: {}
+[5.082724] (-) TimerEvent: {}
+[5.183833] (-) TimerEvent: {}
+[5.284281] (-) TimerEvent: {}
+[5.388025] (-) TimerEvent: {}
+[5.488942] (-) TimerEvent: {}
+[5.589738] (-) TimerEvent: {}
+[5.690500] (-) TimerEvent: {}
+[5.791190] (-) TimerEvent: {}
+[5.892265] (-) TimerEvent: {}
+[5.992866] (-) TimerEvent: {}
+[6.094037] (-) TimerEvent: {}
+[6.196076] (-) TimerEvent: {}
+[6.296609] (-) TimerEvent: {}
+[6.397610] (-) TimerEvent: {}
+[6.499185] (-) TimerEvent: {}
+[6.603026] (-) TimerEvent: {}
+[6.703429] (-) TimerEvent: {}
+[6.804134] (-) TimerEvent: {}
+[6.904692] (-) TimerEvent: {}
+[7.005030] (-) TimerEvent: {}
+[7.105614] (-) TimerEvent: {}
+[7.206198] (-) TimerEvent: {}
+[7.310573] (-) TimerEvent: {}
+[7.411393] (-) TimerEvent: {}
+[7.512125] (-) TimerEvent: {}
+[7.612686] (-) TimerEvent: {}
+[7.713492] (-) TimerEvent: {}
+[7.817086] (-) TimerEvent: {}
+[7.917939] (-) TimerEvent: {}
+[8.019853] (-) TimerEvent: {}
+[8.120516] (-) TimerEvent: {}
+[8.226717] (-) TimerEvent: {}
+[8.327590] (-) TimerEvent: {}
+[8.428328] (-) TimerEvent: {}
+[8.529064] (-) TimerEvent: {}
+[8.632812] (-) TimerEvent: {}
+[8.737845] (-) TimerEvent: {}
+[8.838363] (-) TimerEvent: {}
+[8.939457] (-) TimerEvent: {}
+[9.040191] (-) TimerEvent: {}
+[9.140601] (-) TimerEvent: {}
+[9.241893] (-) TimerEvent: {}
+[9.342877] (-) TimerEvent: {}
+[9.443210] (-) TimerEvent: {}
+[9.545876] (-) TimerEvent: {}
+[9.646571] (-) TimerEvent: {}
+[9.746959] (-) TimerEvent: {}
+[9.851720] (-) TimerEvent: {}
+[9.952578] (-) TimerEvent: {}
+[10.053181] (-) TimerEvent: {}
+[10.158229] (-) TimerEvent: {}
+[10.259064] (-) TimerEvent: {}
+[10.359951] (-) TimerEvent: {}
+[10.462804] (-) TimerEvent: {}
+[10.563583] (-) TimerEvent: {}
+[10.664337] (-) TimerEvent: {}
+[10.764908] (-) TimerEvent: {}
+[10.865338] (-) TimerEvent: {}
+[10.965831] (-) TimerEvent: {}
+[11.066413] (-) TimerEvent: {}
+[11.170024] (-) TimerEvent: {}
+[11.271505] (-) TimerEvent: {}
+[11.372774] (-) TimerEvent: {}
+[11.473464] (-) TimerEvent: {}
+[11.574047] (-) TimerEvent: {}
+[11.674528] (-) TimerEvent: {}
+[11.778847] (-) TimerEvent: {}
+[11.879652] (-) TimerEvent: {}
+[11.980502] (-) TimerEvent: {}
+[12.081991] (-) TimerEvent: {}
+[12.185178] (-) TimerEvent: {}
+[12.286105] (-) TimerEvent: {}
+[12.389918] (-) TimerEvent: {}
+[12.490498] (-) TimerEvent: {}
+[12.591283] (-) TimerEvent: {}
+[12.693700] (-) TimerEvent: {}
+[12.794462] (-) TimerEvent: {}
+[12.899028] (-) TimerEvent: {}
+[12.999612] (-) TimerEvent: {}
+[13.100673] (-) TimerEvent: {}
+[13.201296] (-) TimerEvent: {}
+[13.302218] (-) TimerEvent: {}
+[13.403224] (-) TimerEvent: {}
+[13.504069] (-) TimerEvent: {}
+[13.605002] (-) TimerEvent: {}
+[13.708244] (-) TimerEvent: {}
+[13.808847] (-) TimerEvent: {}
+[13.909815] (-) TimerEvent: {}
+[14.010685] (-) TimerEvent: {}
+[14.112959] (-) TimerEvent: {}
+[14.214181] (-) TimerEvent: {}
+[14.315119] (-) TimerEvent: {}
+[14.418417] (-) TimerEvent: {}
+[14.519260] (-) TimerEvent: {}
+[14.622710] (-) TimerEvent: {}
+[14.723603] (-) TimerEvent: {}
+[14.828686] (-) TimerEvent: {}
+[14.929883] (-) TimerEvent: {}
+[15.030534] (-) TimerEvent: {}
+[15.131018] (-) TimerEvent: {}
+[15.234688] (-) TimerEvent: {}
+[15.335371] (-) TimerEvent: {}
+[15.440607] (-) TimerEvent: {}
+[15.541189] (-) TimerEvent: {}
+[15.641763] (-) TimerEvent: {}
+[15.742517] (-) TimerEvent: {}
+[15.843079] (-) TimerEvent: {}
+[15.945176] (-) TimerEvent: {}
+[16.045731] (-) TimerEvent: {}
+[16.146346] (-) TimerEvent: {}
+[16.249734] (-) TimerEvent: {}
+[16.351219] (-) TimerEvent: {}
+[16.451717] (-) TimerEvent: {}
+[16.552113] (-) TimerEvent: {}
+[16.660192] (-) TimerEvent: {}
+[16.762364] (-) TimerEvent: {}
+[16.863402] (-) TimerEvent: {}
+[16.964301] (-) TimerEvent: {}
+[17.066020] (-) TimerEvent: {}
+[17.166870] (-) TimerEvent: {}
+[17.267323] (-) TimerEvent: {}
+[17.368202] (-) TimerEvent: {}
+[17.469066] (-) TimerEvent: {}
+[17.571152] (-) TimerEvent: {}
+[17.672208] (-) TimerEvent: {}
+[17.773848] (-) TimerEvent: {}
+[17.878260] (-) TimerEvent: {}
+[17.979586] (-) TimerEvent: {}
+[18.080486] (-) TimerEvent: {}
+[18.181027] (-) TimerEvent: {}
+[18.281654] (-) TimerEvent: {}
+[18.385135] (-) TimerEvent: {}
+[18.485880] (-) TimerEvent: {}
+[18.586354] (-) TimerEvent: {}
+[18.687982] (-) TimerEvent: {}
+[18.790400] (-) TimerEvent: {}
+[18.891480] (-) TimerEvent: {}
+[18.992449] (-) TimerEvent: {}
+[19.096850] (-) TimerEvent: {}
+[19.197495] (-) TimerEvent: {}
+[19.301183] (-) TimerEvent: {}
+[19.401862] (-) TimerEvent: {}
+[19.505391] (-) TimerEvent: {}
+[19.608755] (-) TimerEvent: {}
+[19.715136] (-) TimerEvent: {}
+[19.816184] (-) TimerEvent: {}
+[19.917215] (-) TimerEvent: {}
+[20.018056] (-) TimerEvent: {}
+[20.118941] (-) TimerEvent: {}
+[20.226222] (-) TimerEvent: {}
+[20.326904] (-) TimerEvent: {}
+[20.427530] (-) TimerEvent: {}
+[20.528395] (-) TimerEvent: {}
+[20.631901] (-) TimerEvent: {}
+[20.732538] (-) TimerEvent: {}
+[20.833836] (-) TimerEvent: {}
+[20.935495] (-) TimerEvent: {}
+[21.036520] (-) TimerEvent: {}
+[21.137615] (-) TimerEvent: {}
+[21.238743] (-) TimerEvent: {}
+[21.339288] (-) TimerEvent: {}
+[21.440291] (-) TimerEvent: {}
+[21.541336] (-) TimerEvent: {}
+[21.642788] (-) TimerEvent: {}
+[21.743345] (-) TimerEvent: {}
+[21.844504] (-) TimerEvent: {}
+[21.946255] (-) TimerEvent: {}
+[22.048238] (-) TimerEvent: {}
+[22.149028] (-) TimerEvent: {}
+[22.249437] (-) TimerEvent: {}
+[22.350392] (-) TimerEvent: {}
+[22.453621] (-) TimerEvent: {}
+[22.554396] (-) TimerEvent: {}
+[22.655068] (-) TimerEvent: {}
+[22.755627] (-) TimerEvent: {}
+[22.856350] (-) TimerEvent: {}
+[22.958925] (-) TimerEvent: {}
+[23.059392] (-) TimerEvent: {}
+[23.159872] (-) TimerEvent: {}
+[23.260262] (-) TimerEvent: {}
+[23.362207] (-) TimerEvent: {}
+[23.467889] (-) TimerEvent: {}
+[23.568632] (-) TimerEvent: {}
+[23.669381] (-) TimerEvent: {}
+[23.769820] (-) TimerEvent: {}
+[23.870488] (-) TimerEvent: {}
+[23.970920] (-) TimerEvent: {}
+[24.072268] (-) TimerEvent: {}
+[24.173434] (-) TimerEvent: {}
+[24.275129] (-) TimerEvent: {}
+[24.377593] (-) TimerEvent: {}
+[24.480904] (-) TimerEvent: {}
+[24.581983] (-) TimerEvent: {}
+[24.682424] (-) TimerEvent: {}
+[24.783212] (-) TimerEvent: {}
+[24.886307] (-) TimerEvent: {}
+[24.986711] (-) TimerEvent: {}
+[25.087151] (-) TimerEvent: {}
+[25.091200] (px4) StderrLine: {'line': b'CMake Error at googletest-download/googletest-prefix/src/googletest-stamp/googletest-download-.cmake:49 (message):\n'}
+[25.091517] (px4) StderrLine: {'line': b'  Command failed: 1\n'}
+[25.091609] (px4) StderrLine: {'line': b'\n'}
+[25.091687] (px4) StderrLine: {'line': b"   '/usr/bin/cmake' '-Dmake=' '-Dconfig=' '-P' '/home/fly/fly/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download--impl.cmake'\n"}
+[25.091784] (px4) StderrLine: {'line': b'\n'}
+[25.091853] (px4) StderrLine: {'line': b'  See also\n'}
+[25.091920] (px4) StderrLine: {'line': b'\n'}
+[25.091986] (px4) StderrLine: {'line': b'    /home/fly/fly/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download-*.log\n'}
+[25.092052] (px4) StderrLine: {'line': b'\n'}
+[25.092117] (px4) StderrLine: {'line': b'\n'}
+[25.099911] (px4) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/googletest.dir/build.make:100\xef\xbc\x9agoogletest-prefix/src/googletest-stamp/googletest-download] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[25.100159] (px4) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83\xef\xbc\x9aCMakeFiles/googletest.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[25.100679] (px4) StderrLine: {'line': b'gmake: *** [Makefile:91\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[25.103446] (px4) StderrLine: {'line': b'\x1b[31mCMake Error at cmake/gtest/gtest.cmake:39 (message):\n'}
+[25.103765] (px4) StderrLine: {'line': b'  Preparing googletest failed: 0 2\n'}
+[25.103812] (px4) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[25.103847] (px4) StderrLine: {'line': b'  CMakeLists.txt:409 (include)\n'}
+[25.103879] (px4) StderrLine: {'line': b'\n'}
+[25.103913] (px4) StderrLine: {'line': b'\x1b[0m\n'}
+[25.103946] (px4) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[25.127045] (px4) CommandEnded: {'returncode': 1}
+[25.156107] (px4) JobEnded: {'identifier': 'px4', 'rc': 1}
+[25.167617] (-) EventReactorShutdown: {}

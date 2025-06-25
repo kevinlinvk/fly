@@ -1,0 +1,5 @@
+-- Downloading...
+   dst='/home/fly/fly/build/px4/googletest-download/googletest-prefix/src/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/google/googletest/archive/b796f7d44681514f58a683a3a71ff17c94edb0c1.zip'

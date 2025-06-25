@@ -1,0 +1,89 @@
+[0.270s] Invoking command in '/home/fly/fly/build/px4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fly/fly/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/fly/fly/install/px4
+[0.459s] -- PX4_GIT_TAG: v1.16.0-rc1-291-g2e6fd9dd72
+[0.460s] [33mCMake Warning (dev) at CMakeLists.txt:176 (find_package):
+[0.460s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.460s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.460s]   the cmake_policy command to set the policy and suppress this warning.
+[0.460s] 
+[0.461s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.461s] [0m
+[0.498s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.12.3", minimum required is "3") 
+[0.521s] -- PX4 config file: /home/fly/fly/PX4-Autopilot/boards/px4/ros2/default.px4board
+[0.761s] -- PLATFORM ros2
+[0.761s] -- ROMFSROOT px4fmu_common
+[0.762s] -- ROOT_PATH /fs/microsd
+[0.762s] -- PARAM_FILE /fs/mtd_params
+[0.777s] -- PX4 config: px4_ros2_default
+[0.777s] -- PX4 platform: ros2
+[0.900s] -- The CXX compiler identification is GNU 13.3.0
+[0.956s] -- Detecting CXX compiler ABI info
+[1.208s] -- Detecting CXX compiler ABI info - done
+[1.216s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.216s] -- Detecting CXX compile features
+[1.216s] -- Detecting CXX compile features - done
+[1.222s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.476s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.655s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.705s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.721s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.832s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.832s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.052s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.092s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.216s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.233s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.246s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.352s] -- The C compiler identification is GNU 13.3.0
+[2.387s] -- The ASM compiler identification is GNU
+[2.394s] -- Found assembler: /usr/bin/cc
+[2.413s] -- Detecting C compiler ABI info
+[2.629s] -- Detecting C compiler ABI info - done
+[2.638s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.638s] -- Detecting C compile features
+[2.638s] -- Detecting C compile features - done
+[2.676s] -- cmake build type: RelWithDebInfo
+[2.679s] -- ccache enabled (export CCACHE_DISABLE=1 to disable)
+[2.887s] CMake Warning (dev) at /usr/share/cmake-3.28/Modules/ExternalProject.cmake:3195 (message):
+[2.887s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[2.887s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[2.887s]   download, the timestamps of extracted files should preferably be that of
+[2.887s]   the time of extraction, otherwise code that depends on the extracted
+[2.887s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[2.887s]   preserves the timestamps from the archive instead, but this is usually not
+[2.887s]   what you want.  Update your project to the NEW behavior or specify the
+[2.887s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[2.887s]   robustness issue.
+[2.888s] Call Stack (most recent call first):
+[2.888s]   /usr/share/cmake-3.28/Modules/ExternalProject.cmake:4418 (_ep_add_download_command)
+[2.888s]   CMakeLists.txt:6 (ExternalProject_Add)
+[2.888s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.888s] 
+[2.899s] -- Configuring done (0.1s)
+[2.901s] -- Generating done (0.0s)
+[2.902s] -- Build files have been written to: /home/fly/fly/build/px4/googletest-download
+[3.052s] [ 11%] Creating directories for 'googletest'
+[3.096s] [ 22%] Performing download step (download, verify and extract) for 'googletest'
+[25.073s] CMake Error at googletest-download/googletest-prefix/src/googletest-stamp/googletest-download-.cmake:49 (message):
+[25.073s]   Command failed: 1
+[25.073s] 
+[25.073s]    '/usr/bin/cmake' '-Dmake=' '-Dconfig=' '-P' '/home/fly/fly/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download--impl.cmake'
+[25.073s] 
+[25.073s]   See also
+[25.073s] 
+[25.073s]     /home/fly/fly/build/px4/googletest-download/googletest-prefix/src/googletest-stamp/googletest-download-*.log
+[25.073s] 
+[25.073s] 
+[25.081s] gmake[2]: *** [CMakeFiles/googletest.dir/build.make:100：googletest-prefix/src/googletest-stamp/googletest-download] 错误 1
+[25.081s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/googletest.dir/all] 错误 2
+[25.083s] gmake: *** [Makefile:91：all] 错误 2
+[25.085s] [31mCMake Error at cmake/gtest/gtest.cmake:39 (message):
+[25.085s]   Preparing googletest failed: 0 2
+[25.085s] Call Stack (most recent call first):
+[25.085s]   CMakeLists.txt:409 (include)
+[25.085s] 
+[25.085s] [0m
+[25.085s] -- Configuring incomplete, errors occurred!
+[25.108s] Invoked command in '/home/fly/fly/build/px4' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/fly/fly/install/delivery_drone:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/fly/fly/PX4-Autopilot -DCMAKE_INSTALL_PREFIX=/home/fly/fly/install/px4

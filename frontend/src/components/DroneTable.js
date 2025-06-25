@@ -1,0 +1,46 @@
+import React, { useEffect, useState } from 'react';
+import { Table, message, Tag } from 'antd';
+import { fetchDrones } from '../api';
+
+const DroneTable = () => {
+  const [drones, setDrones] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const load = async () => {
+      setLoading(true);
+      try {
+        const res = await fetchDrones();
+        setDrones(res.data);
+      } catch (e) {
+        message.error('获取无人机信息失败');
+      }
+      setLoading(false);
+    };
+    load();
+    const timer = setInterval(load, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const columns = [
+    { title: '无人机ID', dataIndex: 'drone_id', key: 'drone_id', align: 'center' },
+    { title: '状态', dataIndex: 'status', key: 'status', align: 'center', render: v => v === 'idle' ? <Tag color="green">空闲</Tag> : <Tag color="blue">忙碌</Tag> },
+    { title: '位置', dataIndex: 'location', key: 'location', align: 'center', render: v => v && v.join(',') },
+    { title: '当前订单', dataIndex: 'order_id', key: 'order_id', align: 'center', render: v => v ? v : <span style={{color:'#aaa'}}>无</span> },
+  ];
+
+  return (
+    <Table
+      rowKey="drone_id"
+      columns={columns}
+      dataSource={drones}
+      loading={loading}
+      bordered
+      pagination={false}
+      locale={{ emptyText: '暂无无人机' }}
+      size="middle"
+    />
+  );
+};
+
+export default DroneTable;

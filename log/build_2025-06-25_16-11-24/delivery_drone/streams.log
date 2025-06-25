@@ -1,0 +1,24 @@
+[0.973s] Invoking command in '/home/fly/fly/src/delivery_drone': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fly/fly/build/delivery_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_drone build --build-base /home/fly/fly/build/delivery_drone/build install --record /home/fly/fly/build/delivery_drone/install.log --single-version-externally-managed install_data
+[1.282s] running egg_info
+[1.307s] writing ../../build/delivery_drone/delivery_drone.egg-info/PKG-INFO
+[1.308s] writing dependency_links to ../../build/delivery_drone/delivery_drone.egg-info/dependency_links.txt
+[1.308s] writing entry points to ../../build/delivery_drone/delivery_drone.egg-info/entry_points.txt
+[1.308s] writing requirements to ../../build/delivery_drone/delivery_drone.egg-info/requires.txt
+[1.311s] writing top-level names to ../../build/delivery_drone/delivery_drone.egg-info/top_level.txt
+[1.349s] reading manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'
+[1.351s] writing manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'
+[1.351s] running build
+[1.351s] running build_py
+[1.352s] copying delivery_drone/delivery_drone_node.py -> /home/fly/fly/build/delivery_drone/build/lib/delivery_drone
+[1.352s] running install
+[1.356s] running install_lib
+[1.377s] copying /home/fly/fly/build/delivery_drone/build/lib/delivery_drone/delivery_drone_node.py -> /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone
+[1.378s] byte-compiling /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone/delivery_drone_node.py to delivery_drone_node.cpython-312.pyc
+[1.382s] running install_data
+[1.382s] running install_egg_info
+[1.417s] removing '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info' (and everything under it)
+[1.418s] Copying ../../build/delivery_drone/delivery_drone.egg-info to /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info
+[1.422s] running install_scripts
+[1.588s] Installing delivery_drone_node script to /home/fly/fly/install/delivery_drone/lib/delivery_drone
+[1.588s] writing list of installed files to '/home/fly/fly/build/delivery_drone/install.log'
+[1.648s] Invoked command in '/home/fly/fly/src/delivery_drone' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/fly/fly/build/delivery_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/delivery_drone build --build-base /home/fly/fly/build/delivery_drone/build install --record /home/fly/fly/build/delivery_drone/install.log --single-version-externally-managed install_data
