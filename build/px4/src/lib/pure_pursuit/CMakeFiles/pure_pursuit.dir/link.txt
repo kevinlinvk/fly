@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpure_pursuit.a CMakeFiles/pure_pursuit.dir/PurePursuit.cpp.o
+/usr/bin/ranlib libpure_pursuit.a

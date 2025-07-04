@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblat_lon_alt.a CMakeFiles/lat_lon_alt.dir/lat_lon_alt.cpp.o
+/usr/bin/ranlib liblat_lon_alt.a

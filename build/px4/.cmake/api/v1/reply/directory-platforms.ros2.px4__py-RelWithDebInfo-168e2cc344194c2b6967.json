@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "platforms/ros2/px4__py",
+		"source" : "/home/fly/fly/build/px4/platforms/ros2/px4__py"
+	}
+}

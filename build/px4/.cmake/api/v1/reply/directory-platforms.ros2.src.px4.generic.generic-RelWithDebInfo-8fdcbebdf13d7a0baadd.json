@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "platforms/ros2/src/px4/generic/generic",
+		"source" : "platforms/ros2/src/px4/generic/generic"
+	}
+}

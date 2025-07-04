@@ -1,0 +1,2 @@
+/usr/bin/ar qc libparameters.a CMakeFiles/parameters.dir/parameters.cpp.o CMakeFiles/parameters.dir/atomic_transaction.cpp.o CMakeFiles/parameters.dir/autosave.cpp.o CMakeFiles/parameters.dir/param_translation_unit_tests.cpp.o
+/usr/bin/ranlib libparameters.a

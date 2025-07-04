@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSystemIdentification.a CMakeFiles/SystemIdentification.dir/system_identification.cpp.o
+/usr/bin/ranlib libSystemIdentification.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-board_identity_test.dir/board_identity_test.cpp.o" -o ../../unit-board_identity_test   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libpx4_platform.a ../../lib/libgtest_main.a px4_work_queue/libpx4_work_queue.a ../../lib/libgtest.a 

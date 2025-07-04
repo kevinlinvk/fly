@@ -1,0 +1,765 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "functional-ControlAllocationSequentialDesaturation"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"px4_add_functional_gtest",
+			"link_directories",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_compile_options",
+			"px4_add_common_flags",
+			"add_definitions",
+			"px4_os_add_flags",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/gtest/px4_add_gtest.cmake",
+			"src/lib/control_allocation/control_allocation/CMakeLists.txt",
+			"CMakeLists.txt",
+			"src/lib/control_allocation/actuator_effectiveness/CMakeLists.txt",
+			"msg/CMakeLists.txt",
+			"platforms/common/uORB/CMakeLists.txt",
+			"src/lib/events/CMakeLists.txt",
+			"cmake/px4_add_common_flags.cmake",
+			"platforms/ros2/cmake/px4_impl_os.cmake",
+			"cmake/px4_config.cmake",
+			"cmake/kconfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 371,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 41,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 419,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 108,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 120,
+				"parent" : 13
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 341,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 45,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 114,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 118,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 121,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 134,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 171,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 194,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 342,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 8,
+				"line" : 91,
+				"parent" : 25
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 190,
+				"parent" : 3
+			},
+			{
+				"file" : 9,
+				"parent" : 27
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 98,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 2,
+				"line" : 191,
+				"parent" : 3
+			},
+			{
+				"file" : 10,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 253,
+				"parent" : 31
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 175,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 97,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 2,
+				"line" : 373,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -DNDEBUG -std=gnu++14"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fmerge-all-constants"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fno-signed-zeros"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fno-trapping-math"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-freciprocal-math"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fno-math-errno"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "visibility.h"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Warray-bounds"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wdisabled-optimization"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wunknown-pragmas"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wunused-variable"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-missing-include-dirs"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wno-stringop-truncation"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-fno-builtin-printf"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-fno-strength-reduce"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wformat=1"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wunused-but-set-variable"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wno-format-truncation"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-fcheck-new"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wreorder"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wno-overloaded-virtual"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fno-rtti"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "CONFIG_ARCH_BOARD_PX4_ROS2"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__CUSTOM_FILE_IO__"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__PX4_POSIX"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__PX4_ROS2"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "noreturn_function=__attribute__((noreturn))"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/boards/px4/ros2/src"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/src/px4/common/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/build/px4"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/build/px4/src/lib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/src/px4/generic/generic/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/common"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/common/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib/matrix"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/modules"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/fly/fly/build/px4/external/Install/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib/control_allocation/control_allocation"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib/control_allocation/actuator_effectiveness"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "uorb_msgs::@87da20e8da9c58e355ca"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cdev::@486c09b1dd2eb468d1b8"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ControlAllocation::@21ff1f336157af2e8da1"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "ActuatorEffectiveness::@82904f268e3462cf251f"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "heatshrink::@08e408c2e1387fae7adf"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "mathlib::@acbeda415806513a99b0"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "perf::@25bdab5b7fa021aa5d4c"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "PID::@cca4012f1a8440300d3d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "systemlib::@f1c82114109d59f0af77"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinybson::@8e13947b44723869e90e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "px4_layer::@9eeea2dff420aef92231"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "px4_platform::@b9081f7f9f1bc7ce6a34"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "uORB::@afa8ade38fd817f34bcc"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "work_queue::@4a51fd9749b041c0a765"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "events_header::@5cf9bdc8231d57945e1e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "events::@5cf9bdc8231d57945e1e"
+		}
+	],
+	"id" : "functional-ControlAllocationSequentialDesaturation::@21ff1f336157af2e8da1",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O2 -g -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/home/fly/fly/build/px4/external/Install/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libControlAllocation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../actuator_effectiveness/libActuatorEffectiveness.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lgtest_functional_main",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/ros2/src/px4/common/libpx4_layer.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/libpx4_platform.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/uORB/libuORB.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../systemlib/libsystemlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../cdev/libcdev.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/px4_work_queue/libpx4_work_queue.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lpx4_daemon",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/work_queue/libwork_queue.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../parameters/libparameters.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../events/libevents.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../perf/libperf.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../tinybson/libtinybson.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../msg/libuorb_msgs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ltest_stubs",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../../mathlib/libmathlib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "../../pid/libPID.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "../../heatshrink/libheatshrink.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/libpx4_platform.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../../../../platforms/common/px4_work_queue/libpx4_work_queue.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "functional-ControlAllocationSequentialDesaturation",
+	"nameOnDisk" : "functional-ControlAllocationSequentialDesaturation",
+	"paths" : 
+	{
+		"build" : "src/lib/control_allocation/control_allocation",
+		"source" : "src/lib/control_allocation/control_allocation"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/lib/control_allocation/control_allocation/ControlAllocationSequentialDesaturationTest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

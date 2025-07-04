@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtimesync.a CMakeFiles/timesync.dir/Timesync.cpp.o
+/usr/bin/ranlib libtimesync.a

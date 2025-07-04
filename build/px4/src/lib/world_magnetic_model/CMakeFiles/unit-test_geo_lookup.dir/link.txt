@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-test_geo_lookup.dir/test_geo_lookup.cpp.o" -o ../../../unit-test_geo_lookup   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libworld_magnetic_model.a ../../../lib/libgtest_main.a ../../../lib/libgtest.a 

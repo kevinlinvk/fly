@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-ObstacleMath.dir/ObstacleMathTest.cpp.o" -o ../../../unit-ObstacleMath   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libCollisionPrevention.a ../../../lib/libgtest_main.a ../mathlib/libmathlib.a ../../../lib/libgtest.a 

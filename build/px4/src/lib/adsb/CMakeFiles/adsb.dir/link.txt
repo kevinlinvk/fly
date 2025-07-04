@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadsb.a CMakeFiles/adsb.dir/AdsbConflict.cpp.o
+/usr/bin/ranlib libadsb.a

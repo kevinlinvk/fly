@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsystemlib.a CMakeFiles/systemlib.dir/mavlink_log.cpp.o
+/usr/bin/ranlib libsystemlib.a

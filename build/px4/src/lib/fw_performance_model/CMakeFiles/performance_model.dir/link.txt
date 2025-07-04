@@ -1,0 +1,2 @@
+/usr/bin/ar qc libperformance_model.a CMakeFiles/performance_model.dir/PerformanceModel.cpp.o
+/usr/bin/ranlib libperformance_model.a

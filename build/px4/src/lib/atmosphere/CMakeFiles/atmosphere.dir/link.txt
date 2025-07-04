@@ -1,0 +1,2 @@
+/usr/bin/ar qc libatmosphere.a CMakeFiles/atmosphere.dir/atmosphere.cpp.o
+/usr/bin/ranlib libatmosphere.a

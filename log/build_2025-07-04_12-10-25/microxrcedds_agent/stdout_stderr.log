@@ -1,0 +1,215 @@
+-- The C compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fly/fly/build/microxrcedds_agent
+[ 12%] [34m[1mCreating directories for 'uagent'[0m
+[ 25%] [34m[1mNo download step for 'uagent'[0m
+[ 37%] [34m[1mNo update step for 'uagent'[0m
+[ 50%] [34m[1mNo patch step for 'uagent'[0m
+[ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+loading initial cache file /home/fly/fly/build/microxrcedds_agent/uagent-prefix/tmp/uagent-cache-.cmake
+-- Setting build type to 'Release' as none was specified.
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/fly/fly/build/microxrcedds_agent
+[ 75%] [34m[1mPerforming build step for 'uagent'[0m
+[  2%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedEntities.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/ced/CedMiddleware.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscoverer.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClientManager.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/p2p/InternalClient.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/p2p/AgentDiscovererLinux.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o[0m
+[ 95%] [32m[1mLinking CXX shared library libmicroxrcedds_agent.so[0m
+[ 95%] Built target microxrcedds_agent
+[ 97%] [32mBuilding CXX object CMakeFiles/MicroXRCEAgent.dir/microxrce_agent.cpp.o[0m
+[100%] [32m[1mLinking CXX executable MicroXRCEAgent[0m
+[100%] Built target MicroXRCEAgent
+[34m[1mNo install step for 'uagent'[0m
+[34m[1mCompleted 'uagent'[0m
+Built target uagent
+-- Install configuration: "Release"
+-- Installing: /home/fly/fly/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.3.0.1
+-- Installing: /home/fly/fly/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.3.0
+-- Set non-toolchain portion of runtime path of "/home/fly/fly/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so.3.0.1" to ""
+-- Installing: /home/fly/fly/install/microxrcedds_agent/lib/libmicroxrcedds_agent.so
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/subscriber
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/subscriber/Subscriber.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types/XRCETypes.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types/SubMessageHeader.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types/MessageHeader.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types/Optional.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/types/TopicPubSubType.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/processor
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/processor/Processor.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/reader
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/reader/Reader.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/requester
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/requester/Requester.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/logger
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/logger/Logger.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/object
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/object/XRCEObject.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/topic
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/topic/Topic.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/publisher
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/publisher/Publisher.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/message
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/message/OutputMessage.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/message/InputMessage.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/message/Packet.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutexPriority.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/ArgumentParser.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/SeqNum.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/Color.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/Functions.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/SharedMutex.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/Time.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/Conversion.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/utils/TokenBucket.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/datawriter
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/datawriter/DataWriter.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/Middleware.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/utils
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/utils/Callbacks.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/ced
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedEntities.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/visibility.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/Root.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/p2p
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClientManager.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/p2p/InternalClient.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/scheduler
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/scheduler/PacketScheduler.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/scheduler/Scheduler.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/replier
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/replier/Replier.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/Agent.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session/SessionInfo.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session/stream
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session/stream/OutputStream.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session/stream/InputStream.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/session/Session.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/client/ProxyClient.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/datareader
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/datareader/DataReader.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/AgentInstance.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/participant
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/participant/Participant.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/Server.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/can
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/custom
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/custom/CustomAgent.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/util
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/discovery
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/p2p
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/TransportRc.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/SessionManager.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/udp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake
+-- Installing: /home/fly/fly/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake
+-- Installing: /home/fly/fly/install/microxrcedds_agent/bin/MicroXRCEAgent
+-- Set non-toolchain portion of runtime path of "/home/fly/fly/install/microxrcedds_agent/bin/MicroXRCEAgent" to ""
+-- Installing: /home/fly/fly/install/microxrcedds_agent/include/uxr/agent/config.hpp
+-- Installing: /home/fly/fly/install/microxrcedds_agent/share/microxrcedds_agent/LICENSE
+-- Installing: /home/fly/fly/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake
+-- Installing: /home/fly/fly/install/microxrcedds_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake

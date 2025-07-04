@@ -549,3 +549,42 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/fly/fly/build/px4/googletest-src/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "/home/fly/fly/build/px4/googletest-src/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ"
+      binary: "/home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/jazzy/share/fastrtps_cmake_module/cmake/Modules;/home/fly/fly/PX4-Autopilot/cmake;/home/fly/fly/PX4-Autopilot/platforms/ros2/cmake;/home/fly/fly/PX4-Autopilot/platforms/ros2/cmake;/home/fly/fly/PX4-Autopilot/cmake/gtest/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c826e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c826e.dir/build.make CMakeFiles/cmTC_c826e.dir/build
+        gmake[1]: 进入目录“/home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ”
+        Building C object CMakeFiles/cmTC_c826e.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c826e.dir/src.c.o -c /home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ/src.c
+        Linking C executable cmTC_c826e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c826e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c826e.dir/src.c.o -o cmTC_c826e 
+        gmake[1]: 离开目录“/home/fly/fly/build/px4/CMakeFiles/CMakeScratch/TryCompile-6NbnjQ”
+        
+      exitCode: 0
+...

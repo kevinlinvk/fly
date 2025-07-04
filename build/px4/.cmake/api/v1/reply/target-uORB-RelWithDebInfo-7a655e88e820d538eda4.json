@@ -1,0 +1,732 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "platforms/common/uORB/libuORB.a"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"px4_add_library",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_compile_options",
+			"px4_add_common_flags",
+			"target_compile_options",
+			"add_definitions",
+			"target_compile_definitions",
+			"px4_os_add_flags",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/px4_add_library.cmake",
+			"platforms/common/uORB/CMakeLists.txt",
+			"src/lib/events/CMakeLists.txt",
+			"cmake/px4_add_common_flags.cmake",
+			"CMakeLists.txt",
+			"platforms/ros2/cmake/px4_impl_os.cmake",
+			"cmake/px4_config.cmake",
+			"cmake/kconfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 120,
+				"parent" : 6
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 341,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 45,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 114,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 118,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 121,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 134,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 171,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 171,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 171,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 194,
+				"parent" : 9
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 1
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 342,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 91,
+				"parent" : 21
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 190,
+				"parent" : 8
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 98,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 191,
+				"parent" : 8
+			},
+			{
+				"file" : 7,
+				"parent" : 26
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 253,
+				"parent" : 27
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 175,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 97,
+				"parent" : 21
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 373,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O2 -g -DNDEBUG -std=gnu++14"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fomit-frame-pointer"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fmerge-all-constants"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-signed-zeros"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-trapping-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-freciprocal-math"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-math-errno"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-fvisibility=hidden"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "visibility.h"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Werror"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Warray-bounds"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wdisabled-optimization"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wfatal-errors"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wfloat-equal"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wformat-security"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Winit-self"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wlogical-op"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wuninitialized"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wunknown-pragmas"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wunused-variable"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-missing-include-dirs"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wno-stringop-truncation"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fno-builtin-printf"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-fno-strength-reduce"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wformat=1"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wunused-but-set-variable"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wno-format-truncation"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-fcheck-new"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wreorder"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wno-overloaded-virtual"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-fno-rtti"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-O2"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 19,
+					"define" : "CONFIG_ARCH_BOARD_PX4_ROS2"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "MODULE_NAME=\"uORB\""
+				},
+				{
+					"backtrace" : 19,
+					"define" : "__CUSTOM_FILE_IO__"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__PX4_POSIX"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "__PX4_ROS2"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "noreturn_function=__attribute__((noreturn))"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "/home/fly/fly/PX4-Autopilot/boards/px4/ros2/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/src/px4/common/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/build/px4"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/build/px4/src/lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/src/px4/generic/generic/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/common"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/common/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/lib/matrix"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/home/fly/fly/PX4-Autopilot/src/modules"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/fly/fly/PX4-Autopilot/platforms/ros2/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/fly/fly/build/px4/external/Install/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/fly/fly/build/px4/platforms/common/uORB"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				3,
+				6,
+				9,
+				14,
+				16,
+				20,
+				21,
+				22
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "uorb_headers::@87da20e8da9c58e355ca"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "uorb_msgs::@87da20e8da9c58e355ca"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "cdev::@486c09b1dd2eb468d1b8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "heatshrink::@08e408c2e1387fae7adf"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "px4_platform::@b9081f7f9f1bc7ce6a34"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "events_header::@5cf9bdc8231d57945e1e"
+		}
+	],
+	"id" : "uORB::@afa8ade38fd817f34bcc",
+	"name" : "uORB",
+	"nameOnDisk" : "libuORB.a",
+	"paths" : 
+	{
+		"build" : "platforms/common/uORB",
+		"source" : "platforms/common/uORB"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				5,
+				7,
+				8,
+				10,
+				11,
+				12,
+				13,
+				15,
+				17,
+				18,
+				19
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				3,
+				6,
+				9,
+				14,
+				16,
+				20,
+				21,
+				22
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/ORBSet.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/Publication.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/PublicationMulti.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/Subscription.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/Subscription.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/SubscriptionCallback.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/SubscriptionInterval.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/SubscriptionInterval.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/SubscriptionMultiArray.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORB.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORB.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBCommon.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBCommunicator.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBManager.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORBMessageFields.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBMessageFields.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORBUtils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBUtils.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBDeviceMaster.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "platforms/common/uORB/uORBDeviceNode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORBDeviceMaster.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORBDeviceNode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "platforms/common/uORB/uORBManager.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

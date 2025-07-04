@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnpfg.a CMakeFiles/npfg.dir/DirectionalGuidance.cpp.o CMakeFiles/npfg.dir/CourseToAirspeedRefMapper.cpp.o CMakeFiles/npfg.dir/AirspeedDirectionController.cpp.o
+/usr/bin/ranlib libnpfg.a

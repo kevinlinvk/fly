@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbutton_publisher.a CMakeFiles/button_publisher.dir/ButtonPublisher.cpp.o
+/usr/bin/ranlib libbutton_publisher.a

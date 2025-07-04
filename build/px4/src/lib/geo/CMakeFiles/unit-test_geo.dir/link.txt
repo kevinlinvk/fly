@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-test_geo.dir/test_geo.cpp.o" -o ../../../unit-test_geo   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libgeo.a ../../../lib/libgtest_main.a ../../../lib/libgtest.a 

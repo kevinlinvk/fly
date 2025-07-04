@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdrivers__smbus_sbs.a 
+/usr/bin/ranlib libdrivers__smbus_sbs.a

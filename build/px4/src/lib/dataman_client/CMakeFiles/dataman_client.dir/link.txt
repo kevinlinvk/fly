@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdataman_client.a CMakeFiles/dataman_client.dir/DatamanClient.cpp.o
+/usr/bin/ranlib libdataman_client.a

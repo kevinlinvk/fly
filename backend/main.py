@@ -1,12 +1,15 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from pydantic import BaseModel
 from typing import List, Dict, Optional
 import math
+import asyncio
+import json
 
 app = FastAPI()
 
 orders = []
 drones = {}  # drone_id -> {"location": [...], "status": "idle"/"busy"}
+drone_ws_map: Dict[str, WebSocket] = {}
 
 class DroneStatus(BaseModel):
     drone_id: str
@@ -108,4 +111,69 @@ def list_drones():
     return [
         {"drone_id": k, "order_id": v.get("order_id"), **v}
         for k, v in drones.items()
-    ] 
+    ]
+
+# ========== WebSocket接口 ==========
+@app.websocket("/ws/drone")
+async def drone_ws(websocket: WebSocket):
+    await websocket.accept()
+    drone_id = None
+    try:
+        while True:
+            msg = await websocket.receive_text()
+            try:
+                data = json.loads(msg)
+            except Exception:
+                await websocket.send_text(json.dumps({"type": "error", "msg": "Invalid JSON"}))
+                continue
+            msg_type = data.get("type")
+            if msg_type == "register":
+                drone_id = data["drone_id"]
+                drones[drone_id] = {"location": data["location"], "status": "idle"}
+                drone_ws_map[drone_id] = websocket
+                await websocket.send_text(json.dumps({"type": "register", "result": "ok", "drone_id": drone_id}))
+            elif msg_type == "location":
+                if drone_id:
+                    drones[drone_id]["location"] = data["location"]
+            elif msg_type == "status":
+                if drone_id:
+                    drones[drone_id]["location"] = data["location"]
+                    drones[drone_id]["status"] = data["status"]
+                    # 订单完成处理
+                    if data["status"] == "finished" and data.get("order_id") is not None:
+                        for order in orders:
+                            if order["order_id"] == data["order_id"]:
+                                order["status"] = "finished"
+                                drones[drone_id]["status"] = "idle"
+                                order["assigned_drone"] = None
+            elif msg_type == "confirm_dropoff":
+                order_id = data["order_id"]
+                dropoff_index = data["dropoff_index"]
+                for order in orders:
+                    if order["order_id"] == order_id:
+                        if dropoff_index < len(order["dropoffs"]):
+                            order["current_dropoff"] = dropoff_index
+                            order["status"] = "delivering"
+                            await websocket.send_text(json.dumps({"type": "confirm_dropoff", "location": order["dropoffs"][dropoff_index]}))
+                        else:
+                            await websocket.send_text(json.dumps({"type": "error", "msg": "Invalid dropoff index"}))
+                        break
+            elif msg_type == "pong":
+                pass  # 心跳响应
+            else:
+                await websocket.send_text(json.dumps({"type": "error", "msg": "Unknown message type"}))
+            # 检查是否有新订单需要推送
+            if drone_id:
+                for order in orders:
+                    if order.get("assigned_drone") == drone_id and order["status"] == "assigned":
+                        order["status"] = "delivering"
+                        drones[drone_id]["status"] = "busy"
+                        await websocket.send_text(json.dumps({"type": "order", "order": order}))
+    except WebSocketDisconnect:
+        if drone_id and drone_id in drone_ws_map:
+            del drone_ws_map[drone_id]
+        print(f"无人机{drone_id} WebSocket断开")
+    except Exception as e:
+        print(f"WebSocket异常: {e}")
+        if drone_id and drone_id in drone_ws_map:
+            del drone_ws_map[drone_id] 

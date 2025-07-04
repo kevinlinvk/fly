@@ -1,0 +1,2 @@
+/usr/bin/ar qc librover_control.a CMakeFiles/rover_control.dir/RoverControl.cpp.o
+/usr/bin/ranlib librover_control.a

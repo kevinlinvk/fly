@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/delivery_drone/delivery_drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/delivery_drone/delivery_drone.egg-info/dependency_links.txt
+writing entry points to ../../build/delivery_drone/delivery_drone.egg-info/entry_points.txt
+writing requirements to ../../build/delivery_drone/delivery_drone.egg-info/requires.txt
+writing top-level names to ../../build/delivery_drone/delivery_drone.egg-info/top_level.txt
+reading manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/delivery_drone/delivery_drone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying delivery_drone/delivery_drone_node.py -> /home/fly/fly/build/delivery_drone/build/lib/delivery_drone
+running install
+running install_lib
+copying /home/fly/fly/build/delivery_drone/build/lib/delivery_drone/delivery_drone_node.py -> /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone
+byte-compiling /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone/delivery_drone_node.py to delivery_drone_node.cpython-312.pyc
+running install_data
+copying package.xml -> /home/fly/fly/install/delivery_drone/share/delivery_drone
+running install_egg_info
+removing '/home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/delivery_drone/delivery_drone.egg-info to /home/fly/fly/install/delivery_drone/lib/python3.12/site-packages/delivery_drone-0.0.0-py3.12.egg-info
+running install_scripts
+Installing delivery_drone_node script to /home/fly/fly/install/delivery_drone/lib/delivery_drone
+writing list of installed files to '/home/fly/fly/build/delivery_drone/install.log'

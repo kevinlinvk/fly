@@ -1,0 +1,2 @@
+/usr/bin/ar qc librtl_time_estimator.a CMakeFiles/rtl_time_estimator.dir/rtl_time_estimator.cpp.o
+/usr/bin/ranlib librtl_time_estimator.a

@@ -37,12 +37,13 @@ graph TD
 ### 2.3 backend（FastAPI）
 - 主要接口：
   - `POST /register_drone`：无人机注册/心跳，自动更新状态
-  - `POST /add_order`：添加订单，自动分配给最近空闲无人机
+  - `POST /add_order`：添加订单，自动分配给最近的空闲无人机
   - `GET /next_order?drone_id=xxx`：无人机获取分配给自己的订单
   - `POST /drone_status`：无人机上报状态
   - `GET /orders`、`GET /drones`：查询所有订单和无人机状态
-- 订单分配算法：欧氏距离最近的idle无人机优先
-- 支持多无人机并发、重复注册、状态实时同步
+- 订单分配算法：基于欧氏距离，系统会自动将新订单分配给距离 pickup 点最近的空闲（idle）无人机。
+- 如果没有空闲无人机，订单状态为 waiting，待有无人机空闲后再分配。
+- 支持多无人机并发、重复注册、状态实时同步。
 
 ### 2.4 delivery_drone（ROS2节点）
 - 启动时自动注册，注册失败自动重试
@@ -150,4 +151,43 @@ GET /orders
 - FastAPI文档：https://fastapi.tiangolo.com/
 - ROS2文档：https://docs.ros.org/
 - Ant Design：https://ant.design/
-- Leaflet：https://leafletjs.com/ 
+- Leaflet：https://leafletjs.com/
+
+## 后端 API 接口说明
+
+- `/register_drone`：无人机注册/心跳，自动更新状态
+- `/add_order`：添加订单，自动分配给最近的空闲无人机
+- `/next_order`：无人机获取分配给自己的订单
+- `/drone_status`：无人机上报状态
+- `/orders` `/drones`：查询所有订单和无人机状态
+
+## 订单分配与调度算法
+
+- 订单分配算法：基于欧氏距离，系统会自动将新订单分配给距离 pickup 点最近的空闲（idle）无人机。
+- 如果没有空闲无人机，订单状态为 waiting，待有无人机空闲后再分配。
+- 支持多无人机并发、重复注册、状态实时同步。
+
+## 系统并发与状态同步
+
+- 支持多架无人机同时注册、接收和执行订单。
+- 无人机状态（idle/busy/finished）和位置实时同步到后端。
+- 订单状态（waiting/assigned/delivering/finished）自动流转。
+- 所有状态和订单信息可通过 `/orders` `/drones` 接口实时查询。
+
+## 典型接口调用流程
+
+1. 无人机通过 `/register_drone` 或 WebSocket 注册并上报位置。
+2. 用户/前端通过 `/add_order` 添加新订单。
+3. 后端自动分配订单给最近的空闲无人机。
+4. 无人机通过 `/next_order` 获取分配给自己的订单。
+5. 无人机执行任务并通过 `/drone_status` 上报状态。
+6. 订单完成后，状态自动更新，相关无人机恢复 idle。
+
+## 相关脚本
+
+- `start_backend.sh`：启动 FastAPI 后端
+- `start_frontend.sh`：启动 React 前端
+- `start_drone.sh`：启动无人机端 ROS2 节点
+- `start_all.sh`：一键启动所有组件
+
+如需扩展接口或算法，请参考 main.py 及本技术文档相关章节。 

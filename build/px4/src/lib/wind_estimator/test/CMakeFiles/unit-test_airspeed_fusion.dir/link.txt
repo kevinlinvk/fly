@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-test_airspeed_fusion.dir/test_airspeed_fusion.cpp.o" -o ../../../../unit-test_airspeed_fusion   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib ../../../../lib/libgtest_main.a ../../../../lib/libgtest.a 

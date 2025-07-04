@@ -1,0 +1,2 @@
+/usr/bin/ar qc libControlAllocation.a CMakeFiles/ControlAllocation.dir/ControlAllocation.cpp.o CMakeFiles/ControlAllocation.dir/ControlAllocationPseudoInverse.cpp.o CMakeFiles/ControlAllocation.dir/ControlAllocationSequentialDesaturation.cpp.o
+/usr/bin/ranlib libControlAllocation.a

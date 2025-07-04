@@ -1,0 +1,13 @@
+# Target labels
+ uagent
+# Source files and their labels
+/home/fly/fly/build/microxrcedds_agent/CMakeFiles/uagent
+/home/fly/fly/build/microxrcedds_agent/CMakeFiles/uagent.rule
+/home/fly/fly/build/microxrcedds_agent/CMakeFiles/uagent-complete.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-build.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-configure.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-download.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-install.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-mkdir.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-patch.rule
+/home/fly/fly/build/microxrcedds_agent/uagent-prefix/src/uagent-stamp/uagent-update.rule

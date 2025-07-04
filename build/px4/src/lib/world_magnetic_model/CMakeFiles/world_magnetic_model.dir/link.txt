@@ -1,0 +1,2 @@
+/usr/bin/ar qc libworld_magnetic_model.a CMakeFiles/world_magnetic_model.dir/geo_mag_declination.cpp.o
+/usr/bin/ranlib libworld_magnetic_model.a

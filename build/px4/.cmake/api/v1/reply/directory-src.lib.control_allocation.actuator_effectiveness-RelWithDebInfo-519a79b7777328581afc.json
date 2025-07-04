@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/lib/control_allocation/actuator_effectiveness",
+		"source" : "src/lib/control_allocation/actuator_effectiveness"
+	}
+}

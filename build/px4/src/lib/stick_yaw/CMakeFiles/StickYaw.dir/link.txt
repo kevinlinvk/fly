@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStickYaw.a CMakeFiles/StickYaw.dir/StickYaw.cpp.o
+/usr/bin/ranlib libStickYaw.a

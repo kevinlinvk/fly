@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvariable_length_ringbuffer.a CMakeFiles/variable_length_ringbuffer.dir/VariableLengthRingbuffer.cpp.o
+/usr/bin/ranlib libvariable_length_ringbuffer.a

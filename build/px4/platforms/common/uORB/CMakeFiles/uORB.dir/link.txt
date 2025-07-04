@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuORB.a CMakeFiles/uORB.dir/Subscription.cpp.o CMakeFiles/uORB.dir/SubscriptionInterval.cpp.o CMakeFiles/uORB.dir/uORB.cpp.o CMakeFiles/uORB.dir/uORBMessageFields.cpp.o CMakeFiles/uORB.dir/uORBUtils.cpp.o CMakeFiles/uORB.dir/uORBDeviceMaster.cpp.o CMakeFiles/uORB.dir/uORBDeviceNode.cpp.o CMakeFiles/uORB.dir/uORBManager.cpp.o
+/usr/bin/ranlib libuORB.a

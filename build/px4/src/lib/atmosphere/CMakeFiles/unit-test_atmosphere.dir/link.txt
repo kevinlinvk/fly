@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-test_atmosphere.dir/test_atmosphere.cpp.o" -o ../../../unit-test_atmosphere   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libatmosphere.a ../../../lib/libgtest_main.a ../../../lib/libgtest.a 

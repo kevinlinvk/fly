@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG "CMakeFiles/unit-Npfg.dir/NpfgTest.cpp.o" -o ../../../unit-Npfg   -L/home/fly/fly/build/px4/external/Install/lib  -Wl,-rpath,/home/fly/fly/build/px4/external/Install/lib libnpfg.a ../../../lib/libgtest_main.a ../geo/libgeo.a ../../../lib/libgtest.a 
