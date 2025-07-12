@@ -24,7 +24,24 @@ const DroneTable = () => {
 
   const columns = [
     { title: '无人机ID', dataIndex: 'drone_id', key: 'drone_id', align: 'center' },
-    { title: '状态', dataIndex: 'status', key: 'status', align: 'center', render: v => v === 'idle' ? <Tag color="green">空闲</Tag> : <Tag color="blue">忙碌</Tag> },
+    { 
+      title: '状态', 
+      dataIndex: 'status', 
+      key: 'status', 
+      align: 'center', 
+      render: (v, record) => {
+        if (record.is_online === false) {
+          return <Tag color="red">离线</Tag>;
+        }
+        if (v === 'idle') {
+          return <Tag color="green">空闲</Tag>;
+        }
+        if (v === 'busy') {
+          return <Tag color="blue">忙碌</Tag>;
+        }
+        return <Tag>未知</Tag>;
+      }
+    },
     { title: '位置', dataIndex: 'location', key: 'location', align: 'center', render: v => v && v.join(',') },
     { title: '当前订单', dataIndex: 'order_id', key: 'order_id', align: 'center', render: v => v ? v : <span style={{color:'#aaa'}}>无</span> },
   ];
